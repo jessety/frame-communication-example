@@ -1,0 +1,45 @@
+<!doctype html>
+<!--
+index.html
+Frame Communication Example
+
+Created by Jesse T Youngblood on 2/9/17
+-->
+<html>
+    
+    <head>
+        <title>Frame Communication Example</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="scripts.js"></script>
+    </head>
+    
+    <body>
+        
+        <div class="header">Frame Communication Example</div>
+        
+        <div class="description">
+            <p>This is an example of an iframe communicating out to it's parent page.</p>
+            <p>When a message is entered into the input box on the left, it is sent to the main page and displayed on the right.</p>
+        </div>
+
+        <table class="main">
+            <tr>
+                <td>
+                    <!-- This half of the table is loaded from contents/ in an iframe -->
+                    <iframe src="contents/"></iframe>
+                </td>
+                <td>
+                    <div class="container">
+                        <p>This half of the table is NOT loaded from an iframe.</p>
+                        <p>Messages received from iframe contents: </p>
+                        
+                        <ul id="results">
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+    </body>
+    
+</html>

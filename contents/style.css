@@ -1,0 +1,19 @@
+/**
+ * contents/style.css
+ * Frame Communication Example
+ * 
+ * Created by Jesse T Youngblood on 2/9/17
+ */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0rem;
+}
+
+p {
+    margin: 0rem;
+}
+
+.container {
+    margin: 1rem;
+}
